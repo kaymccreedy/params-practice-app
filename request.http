@@ -1,0 +1,10 @@
+### Get
+GET http://localhost:3000/home/query
+
+### Post
+POST http://localhost:3000/home/post
+Content-Type: application/json
+
+{
+  "query": "query"
+}
